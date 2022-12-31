@@ -1,0 +1,192 @@
+#contacts-data-container {
+    position: absolute;
+    width: 1212px;
+    height: 617px;
+    left: 255px;
+    top: 124px;
+
+    background: #FBFBFB;
+    border-radius: 15px;
+}
+
+#button-d-f-container {
+    display: inline-block;
+}
+
+#nav-abr-contact-page {
+    /* position: absolute; */
+    /* left: 50px; */
+    /* border: 1px solid black; */
+    width: 99%;
+}
+
+#s-date-button {
+    /* position: absolute; */
+    width: 146px;
+    height: 33px;
+    line-height: 40px;
+    /* left: 275px;
+    top: 147px;     */
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 1px 18px 0 0;
+    border: #FFFFFF;
+}
+
+#filter-button {
+    /* position: absolute; */
+    width: 120px;
+    height: 33px;
+    border: #FFFFFF;
+    /* left: 474px;
+top: 147px; */
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+
+}
+
+#vartical-line {
+    display: inline-block;
+}
+
+
+
+
+#button-d-i-e-container {
+    display: inline-block;
+    margin: 0 0 0 464px;
+}
+
+#delete-button {
+    /* position: absolute; */
+    width: 139px;
+    height: 41px;
+    /* left: 1245px;
+top: 147px; */
+    margin: 0 11px 0 11px;
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 120px;
+    height: 33px;
+    border: #FFFFFF;
+
+}
+
+#import-button {
+    /* position: absolute; */
+    width: 141px;
+    height: 41px;
+    margin: 0 11px 0 11px;
+    /* left: 1394px;
+top: 146px; */
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 120px;
+    height: 33px;
+    border: #FFFFFF;
+}
+
+#export-button {
+
+    /* position: absolute; */
+    width: 139px;
+    height: 41px;
+    margin: 0 11px 0 11px;
+    /* left: 1545px;
+    top: 146px; */
+
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 120px;
+    height: 33px;
+    border: #FFFFFF;
+}
+
+table {
+    background: #B3DFFF;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1), inset 1px 1px 20px rgba(254, 134, 39, 0.1);
+}
+
+thead {
+    /* position: absolute; */
+    width: 1409px;
+    height: 38px;
+    /* border: 1px solid black; */
+    background: #B3DFFF;
+    /* box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1), inset 1px 1px 20px rgba(254, 134, 39, 0.1); */
+    border-radius: 10px;
+}
+
+thead>tr>th>button {
+    background: #B3DFFF;
+    border: #FFFFFF;
+}
+
+thead>tr>th {
+    background: #B3DFFF;
+    /* padding: 0 45px 0 33px; */
+}
+
+thead>tr {
+    background: #B3DFFF;
+    /* border: 1px solid black; */
+}
+
+#name {
+    width: 200px;
+}
+
+#Designation {
+    width: 120px;
+}
+
+#Company {
+    width: 120px;
+}
+
+#Industry {
+    width: 120px;
+}
+
+#Email {
+    width: 250px;
+}
+
+#Phone {
+    width: 250px;
+}
+
+#Country {
+    width: 80px;
+}
+
+#Action {
+    width: 130px;
+}
+
+.end-varticalline {
+    display: inline-block;
+    border: 0.05px solid black;
+    width: 0px;
+    height: 20px;
+}
+
+.loader-div {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}

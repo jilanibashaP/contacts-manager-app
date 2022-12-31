@@ -1,0 +1,122 @@
+#sidebar-container{
+    position: absolute;
+    width: 207px;
+    height: 740px;
+    left: 0px;
+    top: 0px;
+    background: #CEF3FF;  
+}
+#logo-sidebar-container{
+    position: absolute;
+    width: 83px;
+    height: 61px;
+    left: 24%;
+    top: 28px;    
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    /* identical to box height */   
+    color: #0884FF;   
+}
+#dashbord-text{
+    position: absolute;
+    width: 84px;
+    height: 27px;
+    left: 21%;
+    top: 141px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #181818;
+    /* border: 1px solid black; */
+}
+
+#total-contact-sidebar{
+    position: absolute;
+    width: 171px;
+    height: 52px;
+    left: 24px;
+    top: 203px;
+    background: #2DA5FC;
+    border-radius: 6px;
+}
+#total-contas-text{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 150px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: auto;
+    position: absolute;
+    left: 123%;
+    top: 7%;
+}
+#total-contact-sidebar-child{
+    position: absolute;
+    left :10%;
+    top: 29%;
+}
+#total-contact-icon-line{
+    height: 25px;
+    width: 2px;
+    background-color: #ffff;
+    border-radius: 5%;
+    display: inline-block;
+    position: absolute;
+    left: 584%;
+    top: 3%;
+}
+#logout-button{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 34%;
+    top: 85%;
+    background: #CEF3FF;
+
+}
+#logout-button{
+    position: absolute;
+    left: 16%;
+    top: 648px;
+}
+#logout-button > button{
+    background: #CEF3FF;
+    border: #ffffff;
+}
+#logout-text{
+    position: absolute;
+    bottom: -9%;
+    left: 37%;
+}
+/* #logout-icon{
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background: #000000;
+} */
+/* #logout-text{
+    position: absolute;
+    width: 57px;
+    height: 27px;
+    left: 67px;
+    top: 1047px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.8;
+} */

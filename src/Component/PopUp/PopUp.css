@@ -1,0 +1,101 @@
+.popup-outer{
+    position:fixed;
+    background-color: rgba(66, 64, 64, 0.38);
+    width:100%;
+    height:100vh;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.popup-inner, .popup-importFile{
+    position:relative;
+    min-height:250px;
+    min-width:250px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    align-items:center;
+}
+.popup-importFile{
+    padding: 32px;
+}
+.popup-importFile-dragEnter{
+    background-color: rgb(200,250,250);
+}
+.popup-importFile-dragLeave,.popup-importFile-drop{
+    background-color: rgb(255,255,255);
+}
+.popup-title,.popup-msg,.popup-cancel-btn,.popup-ok-btn,.popup-icon-cover{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.popup-title{
+    color:#1F2633;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+.popup-msg{
+    color: #2DA5FC;
+    opacity: 0.8;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.popup-cancel-btn{
+    /* position:absolute;
+    bottom:32px;
+    margin-left:auto;
+    margin-right:auto; */
+    background: #2DA5FC;
+    border-radius: 5px;
+    min-width:150px;
+    max-width:250px;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    color: #FFFFFF;
+    display:block;
+    margin-top:50px;
+    border:none;
+}
+.popup-ok-btn{
+    font-size:1.5em;
+    line-height: 2.2em;
+    color:#1F2633;
+    background: none;
+    border:none;
+    margin-top:43px;
+
+}
+.popup-icon-cover{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(45,165,252,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-icon-cover>img{
+    width:50%;
+    display: block;
+}
+.loader-img{
+    width:50%;
+    display:block;
+    margin:30px auto;
+}
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.delete-popup-btns{
+    display: flex;
+    align-items: center;
+
+}

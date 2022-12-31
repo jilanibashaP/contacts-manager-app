@@ -1,0 +1,219 @@
+.mainDiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideDiv {
+    background: #CEF3FF;
+    opacity: 0.6;
+    box-shadow: 0px 4px 22px #B2DFFF;
+    border-radius: 20px;
+    /* width: 80%;
+    /* height: 70%; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 800px;
+    height: 70%;
+    /* max-height: 700px; */
+    /* min-width: none; */
+}
+
+.div1 {
+    /* background-color: rgb(162, 207, 246); */
+    /* margin-top:35vh ; */
+    /* border: black solid 2px; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.div3 {
+    /* background-color: rgb(136, 177, 213); */
+    /* border: black solid 2px; */
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 10px;
+    /* display: inline; */
+    /* padding:10px; */
+}
+
+.div2 {
+    /* border: rgb(165, 135, 165) solid 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    /* max-width: 80%; */
+    /* margin-top: 30px; */
+}
+
+.dots {
+    /* height: 100px; */
+    width: 100%;
+
+}
+
+.div2Form {
+    width: 50%;
+
+
+}
+
+.para {
+    margin-top: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.emailId {
+    /* margin-left: 50px;
+    margin-top:15px; */
+    height: 20px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: #09dfa3 solid 2px;
+    width: 100%;
+
+}
+
+.password {
+    /* margin-left: 50px;
+    margin-top: 15px; */
+    height: 20px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    /* padding: 10px; */
+    border-bottom: #09dfa3 solid 2px;
+}
+
+.signIn {
+    width: 103%;
+    margin-top: 0px;
+    background: #7D8CC4;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+    border-bottom: solid black 2px;
+
+}
+.signIn:hover{
+    background-color: #12bbdd;
+}
+.signIn:active{
+    background-color: rgb(108, 234, 234);
+}
+
+.signUp {
+    margin-top: 15px;
+    border: none;
+    margin-left: 12px;
+    background-color: #CEF3FF;
+    border-radius: 3px;
+}
+.signUp:hover{
+    background-color: #12bbdd;
+}
+.signUp:active{
+    background-color: rgb(108, 234, 234);
+}
+
+
+.form {
+    width: 100%;
+    /* border: none; */
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 2px;
+    background: rgba(45, 165, 252, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.logo {
+    width: 50px;
+    background-color: #CEF3FF;
+}
+
+.para {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 22px;
+}
+
+#hide {
+    /* margin-left: 50px; */
+    position: relative;
+    left: 120px;
+    top: -20px;
+}
+
+#hidez {
+    position: relative;
+    left: 120px;
+    top: -35px;
+}
+
+.confirmPassword {
+    position: relative;
+    top: -15px;
+}
+
+.signUpRe {
+    width: 103%;
+    position: relative;
+    top: -30px;
+    width: 103%;
+    /* margin-top: 0px; */
+    background: #7D8CC4;
+    border-radius: 5px;
+    border: none;
+    height: 23px;
+}
+.SignInLink{
+    text-decoration: none;
+}
+.errorMessage{
+    color: rgb(145, 8, 8);
+}
+.EllipseLeft{
+    width: 150px;
+    height: 140px;
+    position: relative;
+    left: 150px;
+    top: -125px;
+} 
+.ellipse32{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 120px;
+    left: -150px;
+
+}
+.ellipse33{
+    position: absolute;
+    top: 900px;
+    /* left: 10px; */
+}
+.logInEll{
+    max-width: 100px;
+}

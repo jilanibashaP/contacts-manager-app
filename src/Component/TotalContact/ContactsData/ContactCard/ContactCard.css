@@ -1,0 +1,41 @@
+tbody > tr > td {
+    /* padding: 0 45px 0 33px; */
+    /* border: 1px solid black; */
+}
+#namefild{
+    width: 200px;
+}
+#desiggnationfild{
+    width: 120px;
+}
+#companyfild{
+    width: 120px;
+}
+#industryfild{
+    width: 120px;
+}
+#email{
+    width: 250px;
+}
+#phonenofild{
+    width: 250px;
+}
+#countryfild{
+    width: 80px;
+}
+#actionfild{
+    width: 130px;
+}
+tbody > tr >td> button{
+    background-color: #FBFBFB;
+    border: #FBFBFB;;
+}
+
+#dual-tone{
+    background: rgba(178, 223, 255, 0.31);
+    border-radius: 10px;
+}
+#dual-tone > tr >td> button{
+    background-color: rgba(178, 223, 255, 0.31);
+    border:  rgba(178, 223, 255, 0.31);
+}
